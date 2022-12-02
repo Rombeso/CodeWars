@@ -14,3 +14,5 @@ function pigIt(str){
 pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldway !
 pigIt('O emporatay o oresmay !');     // Oay emporatay oay oresmay !
+
+//https://www.codewars.com/kata/520b9d2ad5c005041100000f/solutions/javascript
