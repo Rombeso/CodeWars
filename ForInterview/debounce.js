@@ -13,7 +13,7 @@ function debounce(callback, delay) {
         if (myTimeout) {
             clearTimeout(myTimeout)
         }
-        myTimeout = setTimeout(() =>{
+        myTimeout = dsetTimeout(() =>{
             callback(...args)
         }, delay)
     }
