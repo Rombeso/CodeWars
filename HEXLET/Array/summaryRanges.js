@@ -45,4 +45,4 @@ console.log(summaryRanges([0, 1, 2, 4, 5, 7]));
 console.log(summaryRanges([110, 111, 112, 111, 100, -5, -4, -2, -3, -4, -5]));
 // ['110->112', '-5->-4']
 
-https://ru.hexlet.io/challenges/js_arrays_summary_ranges_exercise
+// https://ru.hexlet.io/challenges/js_arrays_summary_ranges_exercise
