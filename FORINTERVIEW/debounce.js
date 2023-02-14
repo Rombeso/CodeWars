@@ -7,16 +7,29 @@ const user = {
     firstName: 'Bob',
 }
 
+// function debounce(callback, delay) {
+//     let myTimeout = null;
+//     return (...args) => {
+//         if (myTimeout) {
+//             clearTimeout(myTimeout)
+//         }
+//         myTimeout = setTimeout(() =>{
+//             callback(...args)
+//         }, delay)
+//     }
+// }
+
 function debounce(callback, delay) {
     let myTimeout = null;
     return (...args) => {
         if (myTimeout) {
-            clearTimeout(myTimeout)
+            clearTimeout(myTimeout);
         }
-        myTimeout = dsetTimeout(() =>{
-            callback(...args)
+        myTimeout = setTimeout((...args) => {
+            callback()
         }, delay)
     }
+
 }
 
 const fetching = debounce(fetchUrl.bind(user), 300);
